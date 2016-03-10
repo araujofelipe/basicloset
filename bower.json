@@ -1,0 +1,21 @@
+{
+  "name": "basicloset",
+  "authors": [
+    "Felipe Araújo <araujofelipebr@gmail.com>"
+  ],
+  "description": "O guarda-roupas do homem real",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
