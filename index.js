@@ -1,8 +1,12 @@
 var express = require("express");
 var app = express();
+app.use(express.static('bower_components'));
+app.use(express.static('public'));
 
-app.get("/", function(request, reponse){
-	console.log("");
+
+
+app.get("/", function(request, response){
+	response.sendfile('./public/index.html'); 
 });
 
 
