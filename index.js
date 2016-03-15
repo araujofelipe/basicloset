@@ -5,14 +5,11 @@ app.use(express.static('public/assets'));
 
 
 
-app.get("/", function(request, response){
+app.get("*", function(request, response){
 	response.sendfile('./public/index.html'); 
 });
 
 
-app.get("/about" ,function(request,response){
-	response.send("sobre?")
-});
 
 app.listen(8000);
 console.log("App listening on port 8000");
